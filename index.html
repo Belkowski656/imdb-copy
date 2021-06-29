@@ -17,10 +17,17 @@
             <div class="nav__burger"><i class="fas fa-bars"></i></div>
             <a href="#" class="nav__logo"><img src="./src/logo.png" alt="" class="nav__logo-img"></a>
             <button class="nav__search"><i class="fas fa-search"></i></button>
-            <div class="nav__search-box">
+            <form class="nav__search-box">
+                <select class="nav__select">
+                    <option class="nav__option">All</option>
+                    <option class="nav__option">Movies</option>
+                    <option class="nav__option">Tv Shows</option>
+                    <option class="nav__option">Celebrities</option>
+                </select>
                 <input id="search" type="text" placeholder="Search IMDb" class="nav__input">
-                <button class="nav__search-close"><i class="fas fa-times"></i></button>
-            </div>
+                <button type="button" class="nav__search-close"><i class="fas fa-times"></i></button>
+                <button class="nav__submit"><i class="fas fa-search"></i></button>
+            </form>
         </div>
         <div class="nav__menu">
             <div class="nav__line">
