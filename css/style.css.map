@@ -9,7 +9,8 @@
         "../scss/variables/_mixins.scss",
         "../scss/layouts/_layouts-main.scss",
         "../scss/layouts/_nav.scss",
-        "../scss/layouts/_header.scss"
+        "../scss/layouts/_header.scss",
+        "../scss/layouts/_birthday.scss"
     ],
     "names": [],
     "file": "style.css"
