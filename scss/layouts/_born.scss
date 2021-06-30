@@ -1,0 +1,96 @@
+.body-born {
+    background-color: #fff;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.born-header {
+    margin-top: 30px;
+    padding: 0 10px;
+
+    &__title {
+        font-size: $font-big;
+    }
+
+    &__sort {
+        display: flex;
+        margin-top: 15px;
+    }
+
+    &__sort-option {
+        margin: 0 10px;
+    }
+
+    &__sort-option:nth-child(2) {
+        position: relative;
+
+        &::after {
+            position: absolute;
+            top: 50%;
+            left: 140%;
+            transform: translateY(-50%);
+            content: '';
+            width: 2px;
+            height: 15px;
+            background-color: gray;
+        }
+    }
+}
+
+.born {
+    padding: 30px 10px;
+
+    &__person {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    &__img {
+        width: 120px;
+        margin-right: 20px;
+    }
+
+    &__name {
+        font-size: $font-standard;
+        margin-bottom: 5px;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $blue;
+    }
+
+    &__profession {
+        margin-bottom: 10px;
+        font-size: $font-small;
+    }
+
+    &__span {
+        position: relative;
+        margin-right: 10px;
+
+        &::after {
+            position: absolute;
+            top: 50%;
+            left: 110%;
+            transform: translateY(-50%);
+            content: '';
+            width: 2px;
+            height: 15px;
+            background-color: gray;
+        }
+    }
+
+    &__last-movie {
+        text-decoration: none;
+        color: $blue;
+    }
+
+    &__description {
+        font-size: $font-small;
+        line-height: 140%;
+    }
+}
