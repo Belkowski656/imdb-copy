@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMBd Copy</title>
+    <script src="https://kit.fontawesome.com/fa56ed0519.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="chart">
+    <div class="blure"></div>
+    <nav class="nav">
+        <div class="nav__wrapper">
+            <div class="nav__burger"><i class="fas fa-bars"></i></div>
+            <a href="#" class="nav__logo"><img src="../src/logo.png" alt="" class="nav__logo-img"></a>
+            <button class="nav__search"><i class="fas fa-search"></i></button>
+            <form class="nav__search-box">
+                <select class="nav__select">
+                    <option class="nav__option">All</option>
+                    <option class="nav__option">Movies</option>
+                    <option class="nav__option">Tv Shows</option>
+                    <option class="nav__option">Celebrities</option>
+                </select>
+                <input id="search" type="text" placeholder="Search IMDb" class="nav__input">
+                <button type="button" class="nav__search-close"><i class="fas fa-times"></i></button>
+                <button class="nav__submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+        <div class="nav__menu">
+            <div class="nav__line">
+                <div class="nav__close"><i class="fas fa-times"></i></div>
+            </div>
+            <div class="nav__movies-wrapper">
+                <div class="nav__movies">
+                    <div class="nav__expander">
+                        <i class="fas fa-film nav__icon"></i>
+                        <p class="nav__name">Movies</p>
+                        <i class="fas fa-sort-down nav__expand"></i>
+                    </div>
+                    <ul class="nav__list">
+                        <li class="nav__element"><a href="" class="nav__link">Top Rated Movies</a></li>
+                        <li class="nav__element"><a href="" class="nav__link">Most Popular Movies</a></li>
+                        <li class="nav__element"><a href="" class="nav__link">Coming Soon</a></li>
+                        <li class="nav__element"><a href="" class="nav__link">Movie News</a></li>
+                    </ul>
+                </div>
+                <div class="nav__tv-shows">
+                    <div class="nav__expander">
+                        <i class="fas fa-desktop nav__icon"></i>
+                        <p class="nav__name">TV Shows</p>
+                        <i class="fas fa-sort-down nav__expand"></i>
+                    </div>
+                    <ul class="nav__list">
+                        <li class="nav__element"><a href="" class="nav__link">Top Rated Shows</a></li>
+                        <li class="nav__element"><a href="" class="nav__link">Most Popular Shows</a></li>
+                        <li class="nav__element"><a href="" class="nav__link">Coming Soon</a></li>
+                        <li class="nav__element"><a href="" class="nav__link">Tv News</a></li>
+                    </ul>
+                </div>
+                <div class="nav__celebs">
+                    <div class="nav__expander">
+                        <i class="fas fa-users nav__icon"></i>
+                        <p class="nav__name">Celebrities</p>
+                        <i class="fas fa-sort-down nav__expand"></i>
+                    </div>
+                    <ul class="nav__list">
+                        <li class="nav__element"><a href="" class="nav__link">Born Today</a></li>
+                        <li class="nav__element"><a href="" class="nav__link">Most Popular Celebs</a></li>
+                        <li class="nav__element"><a href="" class="nav__link">Celebrity News</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="chart-wrapper">
+            <header class="header-chart">
+                <h4 class="header-chart__h4">IMDb Charts</h4>
+                <h1 class="header-chart__title">Top Rated Movies</h1>
+                <p class="header-chart__p">Top 250 rated by IMDb Users</p>
+            </header>
+            <div class="sort">
+                <p class="sort__p">Showing 250 Titles</p>
+                <div class="sort__panel">
+                    <p class="sort__text">Sort by: </p>
+                    <select class="sort__select">
+                        <option class="sort__option">Option 1</option>
+                        <option class="sort__option">Option 2</option>
+                        <option class="sort__option">Option 3</option>
+                        <option class="sort__option">Option 4</option>
+                    </select>
+                    <div class="sort__arrow"></div>
+                </div>
+            </div>
+            <main class="main">
+                <table class="main__table">
+                    <tr class="main__row">
+                        <th>Rank & Title</th>
+                        <th>Rating</th>
+                    </tr>
+                    <tr class="main__row">
+                        <td>
+                            <div class="main__wrapper">
+                                <img src="../src/main-img.jpg" alt="" class="main__img">
+                                <p class="main__movie">
+                                    <span class="main__rank">1.</span>
+                                    <span class="main__title">Game of Thrones</span>
+                                    <span class="main__date">(2011)</span>
+                                </p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="main__wrapper main__two">
+                                <i class="fas fa-star main__star"></i>
+                                <p class="main__rate">9.4</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="main__row">
+                        <td>
+                            <div class="main__wrapper">
+                                <img src="../src/main-img.jpg" alt="" class="main__img">
+                                <p class="main__movie">
+                                    <span class="main__rank">1.</span>
+                                    <span class="main__title">Game of Thrones</span>
+                                    <span class="main__date">(2011)</span>
+                                </p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="main__wrapper main__two">
+                                <i class="fas fa-star main__star"></i>
+                                <p class="main__rate">9.4</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="main__row">
+                        <td>
+                            <div class="main__wrapper">
+                                <img src="../src/main-img.jpg" alt="" class="main__img">
+                                <p class="main__movie">
+                                    <span class="main__rank">1.</span>
+                                    <span class="main__title">Game of Thrones</span>
+                                    <span class="main__date">(2011)</span>
+                                </p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="main__wrapper main__two">
+                                <i class="fas fa-star main__star"></i>
+                                <p class="main__rate">9.4</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="main__row">
+                        <td>
+                            <div class="main__wrapper">
+                                <img src="../src/main-img.jpg" alt="" class="main__img">
+                                <p class="main__movie">
+                                    <span class="main__rank">1.</span>
+                                    <span class="main__title">Game of Thrones</span>
+                                    <span class="main__date">(2011)</span>
+                                </p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="main__wrapper main__two">
+                                <i class="fas fa-star main__star"></i>
+                                <p class="main__rate">9.4</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="main__row">
+                        <td>
+                            <div class="main__wrapper">
+                                <img src="../src/main-img.jpg" alt="" class="main__img">
+                                <p class="main__movie">
+                                    <span class="main__rank">1.</span>
+                                    <span class="main__title">Game of Thrones</span>
+                                    <span class="main__date">(2011)</span>
+                                </p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="main__wrapper main__two">
+                                <i class="fas fa-star main__star"></i>
+                                <p class="main__rate">9.4</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="main__row">
+                        <td>
+                            <div class="main__wrapper">
+                                <img src="../src/main-img.jpg" alt="" class="main__img">
+                                <p class="main__movie">
+                                    <span class="main__rank">1.</span>
+                                    <span class="main__title">Game of Thrones</span>
+                                    <span class="main__date">(2011)</span>
+                                </p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="main__wrapper main__two">
+                                <i class="fas fa-star main__star"></i>
+                                <p class="main__rate">9.4</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="main__row">
+                        <td>
+                            <div class="main__wrapper">
+                                <img src="../src/main-img.jpg" alt="" class="main__img">
+                                <p class="main__movie">
+                                    <span class="main__rank">1.</span>
+                                    <span class="main__title">Game of Thrones</span>
+                                    <span class="main__date">(2011)</span>
+                                </p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="main__wrapper main__two">
+                                <i class="fas fa-star main__star"></i>
+                                <p class="main__rate">9.4</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </main>
+        </div>
+        <aside class="aside">
+            <nav class="aside__nav">
+                <h4 class="aside__title">IMDb Charts</h4>
+                <ul class="aside__list">
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Top Rated Movies</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Most popular Movies</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Top Rated Tv Shows</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Most popular Tv Shows</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="aside__nav">
+                <h4 class="aside__title">Movies & Tv Shows by Genre</h4>
+                <ul class="aside__list">
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Action</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Adventure</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Animation</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Biography</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Comedy</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Crime</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Drama</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Family</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Fantasy</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Film-Noir</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">History</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Horror</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Music</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Musical</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Mystery</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Romance</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Sci-Fi</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Sport</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Thriller</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">War</a>
+                    </li>
+                    <li class="aside__li">
+                        <a href="" class="aside__link">Western</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
+    <script src="../js/nav.js"></script>
+</body>
+
+</html>
