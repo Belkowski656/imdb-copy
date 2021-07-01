@@ -1,0 +1,115 @@
+.movie-body {
+    background-color: #fff;
+}
+
+.movie-nav {
+    background-color: black;
+}
+
+.basic-info {
+    background-color: $gray;
+    color: white;
+    padding: 30px 20px;
+
+    &__title {
+        font-size: $font-mega;
+        font-weight: normal;
+        margin-bottom: 10px;
+    }
+
+    &__orginal-title,
+    &__line {
+        color: $font-gray;
+        font-size: $font-small;
+    }
+
+    &__line {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    &__duration {
+        margin-left: 10px;
+    }
+}
+
+.movie {
+    position: relative;
+    background-color: $gray;
+
+    @media (min-width:576px) {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    &__wrapper {
+        position: relative;
+
+        @media (min-width:576px) {
+            width: 70%;
+        }
+    }
+
+    &__video {
+        width: 100%;
+    }
+
+    &__play {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 45px;
+        color: $yellow;
+    }
+
+    &__img {
+        position: absolute;
+        bottom: 25%;
+        left: 3%;
+        width: 90px;
+        z-index: 1;
+
+        @media (min-width:576px) {
+            position: static;
+            width: 28%;
+            margin-right: 5px;
+        }
+    }
+
+    &__duration {
+        position: absolute;
+        right: 5%;
+        bottom: 10%;
+        color: white;
+    }
+
+    &__box-wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        @media (min-width:576px) {
+            width: 100%;
+        }
+    }
+
+    &__box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 49%;
+        background-color: $gray-transparent;
+        border-radius: 0 0 10px 10px;
+
+    }
+
+    &__icon,
+    &__number,
+    &__type {
+        padding: 15px 5px;
+        font-size: $font-small;
+        font-weight: bold;
+    }
+}
