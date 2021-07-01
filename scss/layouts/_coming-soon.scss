@@ -1,0 +1,117 @@
+.soon-body {
+    background-color: #fff;
+}
+
+.soon {
+    margin-top: 30px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__title {
+        font-size: $font-big;
+    }
+
+    &__select {
+        padding: 5px 10px;
+    }
+}
+
+.main-soon {
+    margin-top: 30px;
+
+    &__movie {
+        display: flex;
+        align-items: flex-start;
+        padding: 5px;
+
+        @media (min-width:576px) {
+            padding: 25px;
+        }
+
+        @media (min-width:576px) {
+            padding: 50px;
+        }
+
+        @media (min-width:992px) {
+            padding: 10px;
+        }
+    }
+
+    &__info {
+        margin-left: 15px;
+    }
+
+    &__img {
+        width: 120px;
+
+        @media (min-width:576px) {
+            width: 150px;
+        }
+    }
+
+    &__link {
+        display: block;
+        color: $blue;
+        text-decoration: none;
+        margin-bottom: 5px;
+    }
+
+    &__generes {
+        display: flex;
+    }
+
+    &__genre {
+        margin-right: 5px;
+        font-size: $font-small;
+        color: gray;
+        margin-bottom: 5px;
+    }
+
+    &__description {
+        display: none;
+        font-size: $font-small;
+        margin-bottom: 5px;
+
+        @media (min-width:576px) {
+            display: block;
+        }
+    }
+
+
+    &__director {
+        margin-bottom: 5px;
+    }
+
+    &__profession {
+        font-size: $font-small;
+        font-weight: bold;
+        margin-right: 5px;
+    }
+
+    &__name {
+        font-size: $font-small;
+    }
+
+    &__stars {
+        display: flex;
+        flex-wrap: wrap;
+
+        .main-soon__link {
+            font-size: $font-small;
+            margin-right: 5px;
+        }
+    }
+
+    &__span {
+        font-size: $font-small;
+        font-weight: bold;
+    }
+
+    &__date-span {
+        font-size: $font-small;
+    }
+
+
+}
