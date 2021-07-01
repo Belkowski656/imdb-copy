@@ -76,34 +76,42 @@
         </div>
     </nav>
     <section class="basic-info">
-        <h2 class="basic-info__title">Movie Title</h2>
-        <p class="basic-info__orginal-title">Orginal title: <span class="basic-info__span">Movie Title</span></p>
-        <div class="basic-info__line">
-            <p class="basic-info__date">2010/11/11</p>
-            <p class="basic-info__duration">2h 28min</p>
+        <div class="wrapper-movie-info">
+            <h2 class="basic-info__title">Movie Title</h2>
+            <p class="basic-info__orginal-title">Orginal title: <span class="basic-info__span">Movie Title</span></p>
+            <div class="basic-info__line">
+                <p class="basic-info__date">2010/11/11</p>
+                <p class="basic-info__duration">2h 28min</p>
+            </div>
         </div>
     </section>
     <main class="movie">
-        <img src="../src/main-img.jpg" alt="" class="movie__img">
-        <div class="movie__wrapper"><i class="far fa-play-circle movie__play"></i>
-            <video class="movie__video">
-                <source
-                    src="https://imdb-video.media-imdb.com/vi2195110937/1434659529640-260ouz-1558462503162.mp4?Expires=1625235308&Signature=GmWK8CX8gN5GLeUG9Bv5fgk0jSOtoHslbeBXq2S49c5423bVS1PP7yNi-GKsVZT~E1uWLTnX5GLaYG7RHfHe6SOV0GU8zyPaWZwD80B7p2SeNaeiJUtIK9txJNn~OA6aL2GHCAy2ICsJhPSmRuZISc6iO2Lrc37QF9Z51I5Uk2GTe1TrnAjd5YfQeU0VJ3jU03lnPj3Eq70awt3zaipgcm07Jz95B7dyCZKbS6Gc0vE1cn8Wkn7OPh1wlnTlO067dRpKO~xQ5gJmrpaGbxx1Ox4LnhUWZeVDiyp6trTi2Xnkyi9hV2WTs4kXbFZ1pOEAv7bbONFYOZ7xzfQRw77XPQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA"
-                    type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <p class="movie__duration">Play trailer <span class="movie__length">2:35</span></p>
-        </div>
-        <div class="movie__box-wrapper">
-            <div class="movie__box">
-                <i class="fas fa-video movie__icon"></i>
-                <p class="movie__number">25</p>
-                <p class="movie__type">Videos</p>
+        <div class="wrapper-movie">
+            <img src="../src/main-img.jpg" alt="" class="movie__img">
+            <div class="movie__wrapper"><i class="far fa-play-circle movie__play"></i>
+                <video class="movie__video">
+                    <source
+                        src="https://imdb-video.media-imdb.com/vi2195110937/1434659529640-260ouz-1558462503162.mp4?Expires=1625235308&Signature=GmWK8CX8gN5GLeUG9Bv5fgk0jSOtoHslbeBXq2S49c5423bVS1PP7yNi-GKsVZT~E1uWLTnX5GLaYG7RHfHe6SOV0GU8zyPaWZwD80B7p2SeNaeiJUtIK9txJNn~OA6aL2GHCAy2ICsJhPSmRuZISc6iO2Lrc37QF9Z51I5Uk2GTe1TrnAjd5YfQeU0VJ3jU03lnPj3Eq70awt3zaipgcm07Jz95B7dyCZKbS6Gc0vE1cn8Wkn7OPh1wlnTlO067dRpKO~xQ5gJmrpaGbxx1Ox4LnhUWZeVDiyp6trTi2Xnkyi9hV2WTs4kXbFZ1pOEAv7bbONFYOZ7xzfQRw77XPQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA"
+                        type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p class="movie__duration">Play trailer <span class="movie__length">2:35</span></p>
             </div>
-            <div class="movie__box">
-                <i class="fas fa-camera movie__icon"></i>
-                <p class="movie__number">35</p>
-                <p class="movie__type">Photos</p>
+            <div class="movie__box-wrapper">
+                <div class="movie__box">
+                    <div class="movie__container">
+                        <i class="fas fa-video movie__icon"></i>
+                        <p class="movie__number">25</p>
+                        <p class="movie__type">Videos</p>
+                    </div>
+                </div>
+                <div class="movie__box">
+                    <div class="movie__container">
+                        <i class="fas fa-camera movie__icon"></i>
+                        <p class="movie__number">35</p>
+                        <p class="movie__type">Photos</p>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
