@@ -1,0 +1,135 @@
+.actor-body {
+    background-color: #fff;
+}
+
+.actor-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.actor-line {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+
+    &__wrapper {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-size: $font-big;
+        margin-bottom: 5px;
+    }
+
+    &__born {
+        margin-bottom: 10px;
+
+    }
+
+    &__professions {
+        display: flex;
+    }
+
+    &__profession {
+        margin-right: 5px;
+        font-size: $font-small;
+    }
+}
+
+.actor {
+    &__img-wrap {
+        position: relative;
+        overflow: hidden;
+        width: 200px;
+        height: 200px;
+        margin: 20px auto;
+        border-radius: 50%;
+
+        @media (min-width:576px) {
+            margin: 20px;
+            float: left;
+        }
+    }
+
+    &__img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 160%;
+    }
+
+    &__video {
+        width: 100%;
+    }
+
+    &__description {
+        text-align: justify;
+        padding: 15px;
+        line-height: 160%;
+
+
+    }
+}
+
+.actor-photos {
+    &__title {
+        margin: 20px;
+        font-size: $font-big;
+    }
+
+    &__container {
+        display: flex;
+        margin: 20px;
+        overflow-x: scroll;
+    }
+
+    &__photo {
+        width: 150px;
+        height: 150px;
+        min-width: 150px;
+        margin-right: 5px;
+        background-size: cover;
+        background-position: center;
+        background-image: url('https://m.media-amazon.com/images/M/MV5BMTQ2NTQwNzY1M15BMl5BanBnXkFtZTgwMzQwNzc4MDE@._V1_.jpg');
+    }
+}
+
+.actor-know-for {
+    text-align: center;
+
+    &__title {
+        margin: 50px 20px 20px;
+        font-size: $font-big;
+        text-align: left;
+    }
+
+    &__container {
+        display: flex;
+        margin: 20px;
+        overflow-x: scroll;
+    }
+
+    &__box {
+        width: 130px;
+        min-width: 130px;
+        margin-right: 5px;
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__link {
+        display: block;
+        text-decoration: none;
+        color: $blue;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    &__date {
+        color: gray;
+    }
+}
