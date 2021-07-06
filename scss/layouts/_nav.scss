@@ -310,6 +310,7 @@
     }
 
     &__result-box {
+        display: none;
         position: absolute;
         top: 65px;
         left: 0;
@@ -327,6 +328,7 @@
 
     &__result-box--active {
         z-index: 1;
+        display: block;
     }
 
     &__result {
