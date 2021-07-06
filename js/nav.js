@@ -1,15 +1,4 @@
-const searchOpen = document.querySelector('.nav__search');
-const searchBox = document.querySelector('.nav__search-box');
-const searchClose = document.querySelector('.nav__search-close');
 const blure = document.querySelector('.blure');
-
-searchOpen.addEventListener('click', () => {
-    searchBox.classList.add('nav__search-box--active');
-})
-
-searchClose.addEventListener('click', () => {
-    searchBox.classList.remove('nav__search-box--active');
-})
 
 const burger = document.querySelector('.nav__burger');
 const menu = document.querySelector('.nav__menu');
