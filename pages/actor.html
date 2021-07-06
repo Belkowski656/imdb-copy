@@ -17,17 +17,35 @@
             <div class="nav__burger"><i class="fas fa-bars"></i></div>
             <a href="../index.html" class="nav__logo"><img src="../src/logo.png" alt="" class="nav__logo-img"></a>
             <button class="nav__search"><i class="fas fa-search"></i></button>
-            <form class="nav__search-box">
-                <select class="nav__select">
-                    <option class="nav__option">All</option>
-                    <option class="nav__option">Movies</option>
-                    <option class="nav__option">Tv Shows</option>
-                    <option class="nav__option">Celebrities</option>
-                </select>
-                <input id="search" type="text" placeholder="Search IMDb" class="nav__input">
-                <button type="button" class="nav__search-close"><i class="fas fa-times"></i></button>
-                <button class="nav__submit"><i class="fas fa-search"></i></button>
-            </form>
+            <div class="nav__search-wrapper">
+                <form class="nav__search-box">
+                    <select class="nav__select">
+                        <option class="nav__option">All</option>
+                        <option class="nav__option">Movies</option>
+                        <option class="nav__option">Tv Shows</option>
+                        <option class="nav__option">Celebrities</option>
+                    </select>
+                    <input id="search" type="text" placeholder="Search IMDb" class="nav__input">
+                    <button type="button" class="nav__search-close"><i class="fas fa-times"></i></button>
+                    <button class="nav__submit"><i class="fas fa-search"></i></button>
+                </form>
+                <div class="nav__result-box">
+                    <a href="" class="nav__result">
+                        <img src="../src/main-img.jpg" alt="" class="nav__img">
+                        <div class="nav__info">
+                            <h4 class="nav__title">Game of Thrones</h4>
+                            <p class="nav__type">Tv Show</p>
+                        </div>
+                    </a>
+                    <a href="" class="nav__result">
+                        <img src="../src/main-img.jpg" alt="" class="nav__img">
+                        <div class="nav__info">
+                            <h4 class="nav__title">Game of Thrones</h4>
+                            <p class="nav__type">Tv Show</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
         <div class="nav__menu">
             <div class="nav__line">
@@ -181,6 +199,7 @@
             itaque temporibus, eum id.</p>
     </footer>
     <script src="../js/nav.js"></script>
+    <script src="../js/search.js"></script>
 </body>
 
 </html>
