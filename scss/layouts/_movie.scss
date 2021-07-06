@@ -317,10 +317,6 @@
         position: relative;
         display: flex;
         overflow-x: scroll;
-
-        @media (min-width:992px) {
-            overflow-x: hidden;
-        }
     }
 
     &__video-box {
@@ -383,6 +379,8 @@
 }
 
 .slider {
+    position: relative;
+
     &__arrow {
         display: none;
     }
@@ -391,7 +389,15 @@
         display: none;
     }
 
+    &__element {
+        transition: .3s ease;
+    }
+
     @media (min-width:992px) {
+        @media (min-width:992px) {
+            overflow-x: hidden;
+        }
+
         &__arrow {
             display: block;
             position: absolute;
